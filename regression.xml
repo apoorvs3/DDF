@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="regression suite" verbose="1">
+
+	<test name="basic rough 1 tests">
+		<classes>
+			<class name="com.w2a.rough1.BasicTests" />
+		</classes>
+	</test>
+
+
+	<test name="assertion rough 2 tests">
+		<classes>
+			<class name="com.w2a.rough1.AssertionTests" />
+		</classes>
+	</test>
+
+
+</suite>

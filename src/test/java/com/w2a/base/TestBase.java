@@ -15,6 +15,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.w2a.utilities.ExcelReader;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
@@ -29,6 +31,7 @@ public class TestBase {
 	public static FileInputStream fis;
 	public static App_log logging = new App_log();
 	public static Logger log = logging.log();
+	public static ExcelReader excel = new ExcelReader("./src/test/resources/excel/testdata.xlsx");
 	
 
 	@BeforeSuite
