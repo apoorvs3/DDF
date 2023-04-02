@@ -33,11 +33,11 @@ public class HashTableExcelDp {
 		Hashtable<String, String> table = null;
 
 		Object[][] data = new Object[rows - 1][1]; // don't need heading
-		for (int rowNum = 2; rowNum <= rows; rowNum++) {
+		for (int rowNum = 2; rowNum <= rows; rowNum++) { //starting from 2nd row
 
 			table = new Hashtable<String, String>();
 			for (int colNum = 0; colNum < cols; colNum++) {
-				table.put(excel.getCellData(sheetName, colNum, 1), excel.getCellData(sheetName, colNum, rowNum));
+				table.put(excel.getCellData(sheetName, colNum, 1), excel.getCellData(sheetName, colNum, rowNum));  // key and value
 				data[rowNum-2][0] = table;
 			}
 		}

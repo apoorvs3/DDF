@@ -1,49 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-30T16:52:10 IST" name="Suite1" finished-at="2023-03-30T16:52:10 IST" duration-ms="113">
+  <suite started-at="2023-03-30T21:30:20 IST" name="Default suite" finished-at="2023-03-30T21:30:20 IST" duration-ms="106">
     <groups>
     </groups>
-    <test started-at="2023-03-30T16:52:10 IST" name="assertion tests" finished-at="2023-03-30T16:52:10 IST" duration-ms="69">
-      <class name="com.w2a.parameters.SimplePara">
-        <test-method signature="getBrowser(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.parameters.SimplePara@1efe439d]" started-at="2023-03-30T16:52:10 IST" name="getBrowser" finished-at="2023-03-30T16:52:10 IST" duration-ms="10" status="PASS">
+    <test started-at="2023-03-30T21:30:20 IST" name="Default test" finished-at="2023-03-30T21:30:20 IST" duration-ms="106">
+      <class name="com.w2a.parameters.ExplicitDp">
+        <test-method signature="testUserReg(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.parameters.ExplicitDp@778d1062]" started-at="2023-03-30T21:30:20 IST" name="testUserReg" data-provider="dp1" finished-at="2023-03-30T21:30:20 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[raman]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[test]]>
+                <![CDATA[haliflaila]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gmail]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getBrowser -->
-      </class> <!-- com.w2a.parameters.SimplePara -->
-    </test> <!-- assertion tests -->
-    <test started-at="2023-03-30T16:52:10 IST" name="copy tests" finished-at="2023-03-30T16:52:10 IST" duration-ms="8">
-      <class name="com.w2a.parameters.SimplePara">
-        <test-method signature="getBrowser(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.parameters.SimplePara@416c58f5]" started-at="2023-03-30T16:52:10 IST" name="getBrowser" finished-at="2023-03-30T16:52:10 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testUserReg -->
+        <test-method signature="testUserReg(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.parameters.ExplicitDp@778d1062]" started-at="2023-03-30T21:30:20 IST" name="testUserReg" data-provider="dp1" finished-at="2023-03-30T21:30:20 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[Chaman]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[bvm]]>
+                <![CDATA[Sukhilal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yahoo]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getBrowser -->
-      </class> <!-- com.w2a.parameters.SimplePara -->
-    </test> <!-- copy tests -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- testUserReg -->
+        <test-method signature="testlogin(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.parameters.ExplicitDp@778d1062]" started-at="2023-03-30T21:30:20 IST" name="testlogin" data-provider="dp1" finished-at="2023-03-30T21:30:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[haliflaila]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method signature="testlogin(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.parameters.ExplicitDp@778d1062]" started-at="2023-03-30T21:30:20 IST" name="testlogin" data-provider="dp1" finished-at="2023-03-30T21:30:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chaman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sukhilal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+      </class> <!-- com.w2a.parameters.ExplicitDp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
