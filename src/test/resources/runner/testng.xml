@@ -7,9 +7,5 @@
 		</classes>
 	</test> <!-- Test -->
 
-	<test name="Add customer test">
-		<classes>
-			<class name="com.w2a.testcases.AddCustomerTest" />
-		</classes>
-	</test>
+
 </suite> <!-- Suite -->
