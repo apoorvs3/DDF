@@ -10,3 +10,4 @@ Feature: Get the stock data history of all the stocks for pre-open market data
     And Change history range for 1 year
     And Get historical stock data for wach company from the table
     Then Store data in a excel file with average monthly values upto 12 months
+    And verify the data with raw format

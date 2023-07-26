@@ -32,4 +32,9 @@ public class StockHistorySteps {
 	public void store_data_in_a_excel_file_with_average_monthly_values_upto_months(Integer int1) {
 	}
 
+	@Then("verify the data with raw format")
+	public void verify_the_data_with_raw_format() {
+	}
+	
+	
 }
